@@ -54,10 +54,11 @@ document.getElementById("mysub").onclick = function(){
 // toFixed(2) é parecido com round(numero, 2) do python
 
 
+
 document.getElementById("mysub").onclick = function(){
 
     // Meu erro foi ter colocado as variáveis fora da função.
-    let pi = 3.12159;
+    let pi = 3.14159;
 
     // Vai converter para numero o que coloquei na "caixa de entrada"
     let raio = document.getElementById("myraio").value;
